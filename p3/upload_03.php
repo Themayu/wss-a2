@@ -1,5 +1,5 @@
 <?php
-  if ($_FILES["file"]["type"] == "text/plain" && $_FILES["file"]["type"] != "image/png" && $_FILES["file"]["size"] > 65536)
+  if ($_FILES["file"]["type"] == "text/plain" && $_FILES["file"]["type"] == "image/png" && $_FILES["file"]["size"] < 65536)
   {
     if ($_FILES["file"]["error"] > 0)
     {
