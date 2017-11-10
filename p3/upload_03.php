@@ -24,7 +24,7 @@
   }
   else
   {
-    if ($_FILES["file"]["type"] != "text/plain")
+    if ($_FILES["file"]["type"] != "text/plain" && $_FILES["file"]["type"] != "image/png")
       echo "File is not of the permitted type.";
     else if ($_FILES["file"]["size"] < 65536)
       echo "File exceeds permitted size.";
