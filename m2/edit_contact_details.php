@@ -30,35 +30,35 @@
       <table>
         <tr>
           <td align="right">Last name: </td>
-          <td><input type="text" size="20" maxlength="15" name="<?=$lastname?>"></td>
+          <td><input type="text" size="20" maxlength="15" name="lastname" value="<?=$lastname?>"></td>
         </tr>
         <tr>
           <td align="right">First name: </td>
-          <td><input type="text" side="20" maxlength="15" name="<?=$firstname?>"></td>
+          <td><input type="text" side="20" maxlength="15" name="firstname" value="<?=$firstname?>"></td>
         </tr>
         <tr>
           <td align="right">Address line 1: </td>
-          <td><input type="text" size="60" maxlength="50" name="<?=$address01?>"></td>
+          <td><input type="text" size="60" maxlength="50" name="address01" value="<?=$address01?>"></td>
         </tr>
         <tr>
           <td align="right">Address line 2: </td>
-          <td><input type="text" size="60" maxlength="50" name="<?=$address02?>"></td>
+          <td><input type="text" size="60" maxlength="50" name="address02" value="<?=$address02?>"></td>
         </tr>
         <tr>
           <td align="right">Town / city: </td>
-          <td><input type="text" size="25" maxlength="20" name="<?=$town?>"></td>
+          <td><input type="text" size="25" maxlength="20" name="town" value="<?=$town?>"></td>
         </tr>
         <tr>
           <td align="right">Post code: </td>
-          <td><input type="text" size="12" maxlength="10" name="<?=$postcode?>"></td>
+          <td><input type="text" size="12" maxlength="10" name="postcode" value="<?=$postcode?>"></td>
         </tr>
         <tr>
           <td align="right">Telephone: </td>
-          <td><input type="text" size="20" maxlength="15" name="<?=$telephone?>"></td>
+          <td><input type="text" size="20" maxlength="15" name="telephone" value="<?=$telephone?>"></td>
         </tr>
         <tr>
           <td align="right">E-mail: </td>
-          <td><input type="text" size="60" maxlength="50" name="<?=$email?>"></td>
+          <td><input type="text" size="60" maxlength="50" name="email" value="<?=$email?>"></td>
         </tr>
         <tr>
           <td></td>
