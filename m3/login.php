@@ -16,7 +16,7 @@
   {
     $conn = @mysql_connect ("localhost", "jamier_admin", "multiuser1") or die ("Sorry - unable to connect to MySQL database.");
     $rs = @mysql_select_db ("jamie-ridding_admin", $conn) or die ("error");
-    $sql = "SELECT * FROM user WHERE username = '$user' AND password = '$pass'";
+    $sql = "SELECT * FROM `user` WHERE username = '$user' AND password = '$pass'";
     $rs = mysql_query($sql,$conn);
     $result = mysql_num_rows($rs);
 
@@ -48,11 +48,11 @@
       <table>
         <tr>
           <td align="right">Username: </td>
-          <td><input size=\"20\" type="text" size="20" maxlength="15" name="username"></td>
+          <td><input type="text" size="20" maxlength="15" name="username"></td>
         </tr>
         <tr>
           <td align="right">Password: </td>
-          <td><input size=\"20\" type="password" size="20" maxlength="15" name="password"></td>
+          <td><input type="password" size="20" maxlength="15" name="password"></td>
         </tr>
         <tr>
           <td></td>
