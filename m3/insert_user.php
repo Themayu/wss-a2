@@ -18,7 +18,7 @@
       $new_pass = $_POST["new_password"];
       $conn = @mysql_connect ("localhost", "jamier_admin", "multiuser1") or die ("Sorry - unable to connect to MySQL database.");
       $rs = @mysql_select_db ("jamie-ridding_admin", $conn) or die ("error");
-      $sql = "INSERT INTO user (username, password) VALUES ('$new_user', '$new_pass')";
+      $sql = "INSERT INTO `name` (username, password) VALUES ('$new_user', '$new_pass')";
       mysql_query($sql,$conn) or die ("User creation failed.");
 
       echo "<p>User created successfully.</p>";
