@@ -13,21 +13,7 @@
   <body>
     <!-- header -->
     <header>
-      <nav>
-        <div class="nav-wrapper container">
-          <a href="#" class="brand-logo">Jamie Ridding</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="https://github-college.github.io/web-server-scripting-Themayu/" target="_blank">Assignment 1</a></li>
-            <li><a href="./p2/getscreen.html" target="_blank">P2</a></li>
-            <li><a href="./p3/upload_03.html" target="_blank">P3</a></li>
-            <li><a href="./p4/login.php" target="_blank">P4</a></li>
-            <li><a href="./p5/guestbook.html" target="_blank">P5</a></li>
-            <li><a href="./m2/create_contact.html" target="_blank">M2</a></li>
-            <li><a href="./m3/login.php" target="_blank">M3</a></li>
-            <li><a href="./m4/error_4.php" target="_blank">M4</a></li>
-          </ul>
-        </div>
-      </nav>
+      <?php require($_SERVER["DOCUMENT_ROOT"] . "/page-struct/header.php"); ?>
     </header>
     <!-- /header -->
 
@@ -46,5 +32,11 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $(".button-collapse").sideNav();
+      });
+    </script>
   </body>
 </html>
