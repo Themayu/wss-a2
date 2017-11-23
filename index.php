@@ -3,7 +3,7 @@
   <head>
     <?php
       $title = "";
-      require($_SERVER["DOCUMENT_ROOT"] + "/page-struct/html-head.php");
+      require($_SERVER["DOCUMENT_ROOT"] . "/page-struct/html-head.php");
     ?>
   </head>
 
