@@ -1,0 +1,2 @@
+AddHandler php-script .html
+AddType text/html .html
